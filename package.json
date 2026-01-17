@@ -1,0 +1,22 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Resume for Andy Young",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch resume.tsx --filename dev_resume_andy_young.pdf",
+    "build": "tsx resume.tsx"
+  },
+  "dependencies": {
+    "@react-pdf/renderer": "^4.3.2",
+    "react": "^19.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.8",
+    "@types/react": "^19.2.8",
+    "tsx": "^4.21.0"
+  }
+}
