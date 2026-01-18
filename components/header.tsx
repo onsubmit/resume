@@ -1,4 +1,5 @@
 import { Link, StyleSheet, Text, View } from '@react-pdf/renderer';
+import { header } from '../data/header';
 
 const styles = StyleSheet.create({
   container: {
@@ -32,11 +33,11 @@ const styles = StyleSheet.create({
 export const Header = () => (
   <View style={styles.container}>
     <View style={styles.detailColumn}>
-      <Text style={styles.name}>Andy Young</Text>
+      <Text style={styles.name}>{header.name}</Text>
     </View>
     <View style={styles.linkColumn}>
-      <Link href="mailto:anyoung@live.com" style={styles.link}>
-        anyoung@live.com
+      <Link href={`mailto:${header.email}`} style={styles.link}>
+        {header.email}
       </Link>
     </View>
   </View>

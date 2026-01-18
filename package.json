@@ -7,11 +7,12 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch resume.tsx --filename dev_resume_andy_young.pdf",
+    "dev": "tsx watch resume.tsx --filename dev_resume_andy_young",
     "build": "tsx resume.tsx"
   },
   "dependencies": {
     "@react-pdf/renderer": "^4.3.2",
+    "docx": "^9.5.1",
     "react": "^19.2.3"
   },
   "devDependencies": {

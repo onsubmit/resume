@@ -1,5 +1,6 @@
 import { StyleSheet, Text, View } from '@react-pdf/renderer';
 
+import { interests } from '../data/interests';
 import { Title } from './title';
 
 const styles = StyleSheet.create({
@@ -12,6 +13,6 @@ const styles = StyleSheet.create({
 export const Interests = () => (
   <View>
     <Title>Interests</Title>
-    <Text style={styles.interests}>Open-source projects, trombone (former Seattle Sounders FC band member), PC gaming, astronomy, husband, father to a 10-year-old son.</Text>
+    <Text style={styles.interests}>{interests}</Text>
   </View>
 );
