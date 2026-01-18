@@ -1,5 +1,6 @@
 import { parseArgs } from "util";
 import { createDocx } from "./docx";
+import { createMarkdown } from "./md";
 import { createPdf } from "./pdf";
 
 
@@ -11,7 +12,8 @@ const { values: args } = parseArgs({
   }
 });
 
-const filename = args.filename || 'resume_andy_young';
+const filename = args.filename;
 
-createPdf(filename);
-createDocx(filename);
+createPdf(filename || 'resume_andy_young');
+createDocx(filename || 'resume_andy_young');
+createMarkdown(filename || 'README');

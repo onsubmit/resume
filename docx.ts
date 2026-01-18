@@ -56,7 +56,7 @@ class DocumentCreator {
             name: "Well Spaced",
             basedOn: "Normal",
             paragraph: {
-              spacing: { line: 242, before: 11, after: 11 },
+              spacing: { line: 232, before: 11, after: 11 },
             },
           },
         ],
@@ -122,7 +122,7 @@ class DocumentCreator {
             new Paragraph({ children: [this.createTextRun(summary)] }),
             this.createHeading("Experience"),
             ...experience
-              .map((e) => {
+              .map(({ company, position, date, details }) => {
                 const arr: Paragraph[] = [];
 
                 arr.push(
@@ -136,18 +136,18 @@ class DocumentCreator {
                     ],
                     children: [
                       this.createTextRun({
-                        text: `${e.company} | ${e.position}`,
+                        text: `${company} | ${position}`,
                         bold: true,
                       }),
                       this.createTextRun({
-                        children: [new Tab(), e.date],
+                        children: [new Tab(), date],
                         bold: true,
                       }),
                     ],
                   })
                 );
 
-                e.details.forEach((sb) => {
+                details.forEach((sb) => {
                   arr.push(
                     sb.withDocxLinks({
                       paragraph: {

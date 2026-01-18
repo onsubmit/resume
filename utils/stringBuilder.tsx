@@ -1,5 +1,12 @@
 import { Link } from "@react-pdf/renderer";
-import { ExternalHyperlink, IParagraphOptions, IRunOptions, Paragraph, ParagraphChild, TextRun } from "docx";
+import {
+  ExternalHyperlink,
+  IParagraphOptions,
+  IRunOptions,
+  Paragraph,
+  ParagraphChild,
+  TextRun,
+} from "docx";
 import { Hyperlink } from "./hyperlink";
 import React = require("react");
 
@@ -19,19 +26,24 @@ export class StringBuilder {
   withPdfRendererLinks(): React.JSX.Element {
     return (
       <>
-        {this._entries
-          .map((entry, index) => {
-            if (typeof entry === "string") {
-              return <React.Fragment key={index}>{entry}</React.Fragment>;
-            }
+        {this._entries.map((entry, index) => {
+          if (typeof entry === "string") {
+            return <React.Fragment key={index}>{entry}</React.Fragment>;
+          }
 
-            return <Link key={index} href={entry.url.toString()}>{entry.contents}</Link>;
-          })}
+          return (
+            <Link key={index} href={entry.url.toString()}>
+              {entry.contents}
+            </Link>
+          );
+        })}
       </>
     );
   }
 
-  withDocxLinks(options?: Partial<{ paragraph: IParagraphOptions; textRun: IRunOptions }>): Paragraph {
+  withDocxLinks(
+    options?: Partial<{ paragraph: IParagraphOptions; textRun: IRunOptions }>
+  ): Paragraph {
     const paragraphChildren: Array<ParagraphChild> = this._entries.map((entry) => {
       if (typeof entry === "string") {
         return new TextRun({
@@ -52,6 +64,18 @@ export class StringBuilder {
       });
     });
 
-    return new Paragraph({ children: paragraphChildren, ...options?.paragraph })
+    return new Paragraph({ children: paragraphChildren, ...options?.paragraph });
+  }
+
+  withMarkdownLinks(): string {
+    return this._entries
+      .map((entry) => {
+        if (typeof entry === "string") {
+          return entry;
+        }
+
+        return `[${entry.contents}](${entry.url})`;
+      })
+      .join("");
   }
 }
