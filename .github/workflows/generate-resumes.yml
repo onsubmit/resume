@@ -36,5 +36,6 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add resume_andy_young.pdf
           git add resume_andy_young.docx
+          git add README.md
           git diff --staged --quiet || git commit -m "Auto-generated [skip ci]"
           git push
