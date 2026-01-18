@@ -1,4 +1,3 @@
-import { hash } from "crypto";
 import {
   AlignmentType,
   convertInchesToTwip,
@@ -23,6 +22,7 @@ import { interests } from "./data/interests";
 import { links } from "./data/links";
 import { aiTools, currentSkills, olderSkills } from "./data/skills";
 import { summary } from "./data/summary";
+import { hash } from "./utils/hash";
 
 class DocumentCreator {
   create(): Document {
