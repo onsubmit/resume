@@ -22,6 +22,7 @@ import { header } from "./data/header";
 import { interests } from "./data/interests";
 import { links } from "./data/links";
 import { aiTools, currentSkills, olderSkills } from "./data/skills";
+import { summary } from "./data/summary";
 
 class DocumentCreator {
   create(): Document {
@@ -55,7 +56,7 @@ class DocumentCreator {
             name: "Well Spaced",
             basedOn: "Normal",
             paragraph: {
-              spacing: { line: 262, before: 11, after: 11 },
+              spacing: { line: 242, before: 11, after: 11 },
             },
           },
         ],
@@ -118,6 +119,7 @@ class DocumentCreator {
                 }),
               ],
             }),
+            new Paragraph({ children: [this.createTextRun(summary)] }),
             this.createHeading("Experience"),
             ...experience
               .map((e) => {
