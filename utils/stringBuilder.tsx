@@ -78,4 +78,16 @@ export class StringBuilder {
       })
       .join("");
   }
+
+  withHtmlLinks(): string {
+    return this._entries
+      .map((entry) => {
+        if (typeof entry === "string") {
+          return entry;
+        }
+
+        return `<a href="${entry.url}" target="_blank">${entry.contents}</a>`;
+      })
+      .join("");
+  }
 }
