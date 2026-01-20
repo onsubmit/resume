@@ -27,8 +27,8 @@ Principal software engineer with 20 years of experience delivering secure, scala
 
 ## Education
 
-- B.S. Honors Computational Mathematics, Washington State University, 2004.
-- Microsoft Test Apprentice Program, Microsoft Corporation, 2007.
+- B.S. Honors Computational Mathematics, Washington State University.
+- Microsoft Test Apprentice Program, Microsoft Corporation.
 
 ## Skills
 
@@ -48,4 +48,4 @@ Open-source projects, trombone (former Seattle Sounders FC band member), PC gami
 
 ## Note
 
-This README auto-generated with commit: [10f4c97](https://github.com/onsubmit/resume/commit/10f4c97)
+This README auto-generated with commit: [abf04b5](https://github.com/onsubmit/resume/commit/abf04b5)
