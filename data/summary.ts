@@ -1,2 +1,2 @@
 export const summary =
-  "Principal software engineer with 20 years of experience delivering secure, scalable applications serving billions of users. Strong background in technical leadership, full-stack development, embedded analytics, and software testing principles.";
+  "Principal software engineer specializing in AI-driven developer tooling with Model Context Protocol (MCP) and agent-oriented architecture. Two decades of experience designing secure, scalable systems that serve global audiences. Deep expertise in technical leadership, mentorship, full-stack development, embedded analytics, and software testing principles.";

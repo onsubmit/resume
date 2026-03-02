@@ -3,7 +3,9 @@ export const currentSkills: Array<string> = [
   "JavaScript",
   "Node.JS",
   "Express",
-  "MCP",
+  "Model Context Protocol (MCP)",
+  "MCP Apps",
+  "WebMCP",
   "React",
   "Redux",
   "RTK Query",
@@ -21,7 +23,6 @@ export const currentSkills: Array<string> = [
 export const aiTools: Array<string> = [
   "Cursor",
   "Claude Desktop",
-  "ChatGPT (Apps)",
   "Building agents and MCP clients with OpenAI",
 ];
 
