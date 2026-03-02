@@ -2,7 +2,7 @@
 
 [anyoung@live.com](mailto:anyoung@live.com)
 
-Principal software engineer with 20 years of experience delivering secure, scalable applications serving billions of users. Strong background in technical leadership, full-stack development, embedded analytics, and software testing principles.
+Principal software engineer specializing in AI-driven developer tooling with Model Context Protocol (MCP) and agent-oriented architecture. Two decades of experience designing secure, scalable systems that serve global audiences. Deep expertise in technical leadership, mentorship, full-stack development, embedded analytics, and software testing principles.
 
 ## Experience
 
@@ -32,8 +32,8 @@ Principal software engineer with 20 years of experience delivering secure, scala
 
 ## Skills
 
-- TypeScript, JavaScript, Node.JS, Express, MCP, React, Redux, RTK Query, Debugging, Vite and Vitest, Playwright, Puppeteer, Cypress, Git, GitHub, Gitlab, PowerShell
-- AI tools: Cursor, Claude Desktop, ChatGPT (Apps), Building agents and MCP clients with OpenAI
+- TypeScript, JavaScript, Node.JS, Express, Model Context Protocol (MCP), MCP Apps, WebMCP, React, Redux, RTK Query, Debugging, Vite and Vitest, Playwright, Puppeteer, Cypress, Git, GitHub, Gitlab, PowerShell
+- AI tools: Cursor, Claude Desktop, Building agents and MCP clients with OpenAI
 - Also experienced with: C#, .NET, ASP.NET, SQL, Selenium WebDriver, Azure Portal, Azure DevOps
 
 ## Interests
@@ -48,4 +48,4 @@ Open-source projects, trombone (former Seattle Sounders FC band member), PC gami
 
 ## Note
 
-This README auto-generated with commit: [abf04b5](https://github.com/onsubmit/resume/commit/abf04b5)
+This README auto-generated with commit: [40c43ab](https://github.com/onsubmit/resume/commit/40c43ab)
