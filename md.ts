@@ -63,7 +63,7 @@ export function createMarkdown(filenameNoExt: string): void {
   md.createHeading(2, "Links").createBullets([...links.map((link) => md.makeHyperlink(link))]);
 
   md.createHeading(2, "Note").createLine(
-    `This README auto-generated with commit: ${md.makeHyperlink(
+    `This Markdown auto-generated with commit: ${md.makeHyperlink(
       new Hyperlink(hash, `https://github.com/onsubmit/resume/commit/${hash}`)
     )}`
   );

@@ -85,7 +85,7 @@ export function createHtml(filenameNoExt: string): void {
   html
     .createHeading(2, "Note")
     .createLine(
-      `This README auto-generated with commit: ${html.makeHyperlink(
+      `This HTML auto-generated with commit: ${html.makeHyperlink(
         new Hyperlink(hash, `https://github.com/onsubmit/resume/commit/${hash}`)
       )}`
     );
