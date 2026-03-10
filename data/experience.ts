@@ -32,7 +32,7 @@ const salesforce: Experience = {
         "https://developer.salesforce.com/tools/tableau/embedding-playground"
       ),
       ", ",
-      new Hyperlink("Pulse", "https://developer.salesforce.com/tools/tableau/embedding-playground"),
+      new Hyperlink("Pulse", "https://www.tableau.com/products/tableau-pulse"),
       ", and ",
       new Hyperlink(
         "VizQL Data Service",
