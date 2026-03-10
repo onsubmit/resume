@@ -9,7 +9,7 @@ Principal software engineer specializing in AI-driven developer tooling with Mod
 ### Salesforce | Principal Member of Technical Staff (Jan 2021—Present)
 
 - Tech lead for [Tableau MCP Server](https://github.com/tableau/tableau-mcp) and [Embedded Analytics](https://www.tableau.com/products/embedded-analytics).
-- Shipped [Tableau Embedding API](https://www.tableau.com/developer/tools/embedding-api), [Embedding Playground](https://developer.salesforce.com/tools/tableau/embedding-playground), [Pulse](https://developer.salesforce.com/tools/tableau/embedding-playground), and [VizQL Data Service](https://www.tableau.com/blog/vizql-data-service-use-your-data-your-way).
+- Shipped [Tableau Embedding API](https://www.tableau.com/developer/tools/embedding-api), [Embedding Playground](https://developer.salesforce.com/tools/tableau/embedding-playground), [Pulse](https://www.tableau.com/products/tableau-pulse), and [VizQL Data Service](https://www.tableau.com/blog/vizql-data-service-use-your-data-your-way).
 
 ### Microsoft | Senior Software Engineer (2014—2021)
 
@@ -48,4 +48,4 @@ Open-source projects, trombone (former Seattle Sounders FC band member), PC gami
 
 ## Note
 
-This README auto-generated with commit: [40c43ab](https://github.com/onsubmit/resume/commit/40c43ab)
+This README auto-generated with commit: [591a966](https://github.com/onsubmit/resume/commit/591a966)
