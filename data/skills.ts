@@ -21,8 +21,9 @@ export const currentSkills: Array<string> = [
 ];
 
 export const aiTools: Array<string> = [
+  "Claude",
   "Cursor",
-  "Claude Desktop",
+  "LangSmith",
   "Building agents and MCP clients with OpenAI",
 ];
 
