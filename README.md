@@ -38,7 +38,7 @@ Principal software engineer specializing in AI-driven developer tooling with Mod
 
 ## Interests
 
-Open-source projects, trombone (former Seattle Sounders FC band member), PC gaming, astronomy, husband, father to a 10-year-old son.
+Open-source projects, trombone (former Seattle Sounders FC band member), PC gaming, astronomy husband, father.
 
 ## Links
 
@@ -48,4 +48,4 @@ Open-source projects, trombone (former Seattle Sounders FC band member), PC gami
 
 ## Note
 
-This Markdown auto-generated with commit: [b7cb861](https://github.com/onsubmit/resume/commit/b7cb861)
+This Markdown auto-generated with commit: [45f6796](https://github.com/onsubmit/resume/commit/45f6796)
