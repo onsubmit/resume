@@ -33,7 +33,7 @@ Principal software engineer specializing in AI-driven developer tooling with Mod
 ## Skills
 
 - TypeScript, JavaScript, Node.JS, Express, Model Context Protocol (MCP), MCP Apps, WebMCP, React, Redux, RTK Query, Debugging, Vite and Vitest, Playwright, Puppeteer, Cypress, Git, GitHub, Gitlab, PowerShell
-- AI tools: Cursor, Claude Desktop, Building agents and MCP clients with OpenAI
+- AI tools: Claude, Cursor, LangSmith, Building agents and MCP clients with OpenAI
 - Also experienced with: C#, .NET, ASP.NET, SQL, Selenium WebDriver, Azure Portal, Azure DevOps
 
 ## Interests
@@ -48,4 +48,4 @@ Open-source projects, trombone (former Seattle Sounders FC band member), PC gami
 
 ## Note
 
-This Markdown auto-generated with commit: [7b1e0f0](https://github.com/onsubmit/resume/commit/7b1e0f0)
+This Markdown auto-generated with commit: [1dbf65f](https://github.com/onsubmit/resume/commit/1dbf65f)
